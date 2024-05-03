@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3EBEE9F-9236-4357-8DDD-1152BF1F4C4D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>unopar</RootNamespace>
+    <AssemblyName>unopar</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="opcoes\FormOpcaoE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="opcoes\FormOpcaoE.Designer.cs">
+      <DependentUpon>FormOpcaoE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="opcoes\FormOpcaoD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="opcoes\FormOpcaoD.Designer.cs">
+      <DependentUpon>FormOpcaoD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="opcoes\FormOpcaoC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="opcoes\FormOpcaoC.Designer.cs">
+      <DependentUpon>FormOpcaoC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="opcoes\FormOpcaoB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="opcoes\FormOpcaoB.Designer.cs">
+      <DependentUpon>FormOpcaoB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="opcoes\FormOpcaoA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="opcoes\FormOpcaoA.Designer.cs">
+      <DependentUpon>FormOpcaoA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opcoes\FormOpcaoE.resx">
+      <DependentUpon>FormOpcaoE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opcoes\FormOpcaoD.resx">
+      <DependentUpon>FormOpcaoD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opcoes\FormOpcaoC.resx">
+      <DependentUpon>FormOpcaoC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opcoes\FormOpcaoB.resx">
+      <DependentUpon>FormOpcaoB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opcoes\FormOpcaoA.resx">
+      <DependentUpon>FormOpcaoA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

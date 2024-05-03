@@ -1,0 +1,15 @@
+D:\Estudos\unopar\unopar\obj\Debug\unopar.csproj.AssemblyReference.cache
+D:\Estudos\unopar\unopar\obj\Debug\unopar.Form1.resources
+D:\Estudos\unopar\unopar\obj\Debug\unopar.Properties.Resources.resources
+D:\Estudos\unopar\unopar\obj\Debug\unopar.csproj.GenerateResource.cache
+D:\Estudos\unopar\unopar\obj\Debug\unopar.csproj.CoreCompileInputs.cache
+D:\Estudos\unopar\unopar\bin\Debug\unopar.exe.config
+D:\Estudos\unopar\unopar\bin\Debug\unopar.exe
+D:\Estudos\unopar\unopar\bin\Debug\unopar.pdb
+D:\Estudos\unopar\unopar\obj\Debug\unopar.exe
+D:\Estudos\unopar\unopar\obj\Debug\unopar.pdb
+D:\Estudos\unopar\unopar\obj\Debug\unopar.opcoes.FormOpcaoE.resources
+D:\Estudos\unopar\unopar\obj\Debug\unopar.opcoes.FormOpcaoD.resources
+D:\Estudos\unopar\unopar\obj\Debug\unopar.opcoes.FormOpcaoC.resources
+D:\Estudos\unopar\unopar\obj\Debug\unopar.opcoes.FormOpcaoB.resources
+D:\Estudos\unopar\unopar\obj\Debug\unopar.opcoes.FormOpcaoA.resources
